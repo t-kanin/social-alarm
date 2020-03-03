@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "988794194142",
+    "firebase_url": "https://alarm-2ab6e.firebaseio.com",
+    "project_id": "alarm-2ab6e",
+    "storage_bucket": "alarm-2ab6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988794194142:android:cbe37a18d5479273",
+        "android_client_info": {
+          "package_name": "be.kuleuven.softdev.kupo.alarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988794194142-uubn03rut0lv43avkgsk1fo6ab7cpbhj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "be.kuleuven.softdev.kupo.alarm",
+            "certificate_hash": "106d1e21549240b6b8bad57837606b1726b5fc51"
+          }
+        },
+        {
+          "client_id": "988794194142-j5uskcjc0oh7bs8sgkuiti63svqdg7hq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "be.kuleuven.softdev.kupo.alarm",
+            "certificate_hash": "8ccf237a477e838a08af45428e35aa19d8967be8"
+          }
+        },
+        {
+          "client_id": "988794194142-vtq05hqcel62luh9ntv6bispshgui8m6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqWE6oHMultoOzF4XYEZ-N_HM9bIATG8w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988794194142-vtq05hqcel62luh9ntv6bispshgui8m6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

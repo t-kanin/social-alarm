@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="User profile">
+        <EditTextPreference
+            android:key="key_display_name"
+            android:title="Display name"
+            android:summary="Ken"
+            android:dialogTitle="Display name"
+            android:dialogMessage="This is dialog message"
+            android:dialogIcon="@drawable/ic_settings_white_24dp"
+            android:inputType="textNoSuggestions"/>
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="key_status_message"
+            android:title="Status message"
+            android:summary=""
+            android:dialogTitle="Status message"
+            android:inputType="textNoSuggestions"/>
+
+        <Preference
+            android:key="key_username"
+            android:title="Username"
+            android:summary="macnum10" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="key_allow_add"
+            android:title="Allow others to add me by username"
+            android:summary="Enable this setting to allow others to add you as a friend by searching for your username" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Account">
+
+        <Preference
+            android:key="key_reset_password"
+            android:title="Change password">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="be.kuleuven.softdev.kupo.alarm"
+                android:targetClass="be.kuleuven.softdev.kupo.alarm.ResetPasswordActivity"/>
+        </Preference>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="key_auto_login"
+            android:title="Auto login"
+            android:summary="Enable this setting to stay logged in until you sign out" />
+
+        <Preference
+            android:key="key_email"
+            android:summary="hkyaltsen@gmail.com"
+            android:title="Email address" />
+        <Preference
+            android:key="key_delete_account"
+            android:title="Delete account" />
+
+        <Preference
+            android:key="key_sign_out"
+            android:title="Sign out" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
